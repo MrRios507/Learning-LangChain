@@ -5,7 +5,7 @@ from langchain_ollama.embeddings import OllamaEmbeddings
 ## Load the document
 print("Loading document...")
 
-loader = TextLoader("../test.txt")
+loader = TextLoader("../../test.txt")
 doc = loader.load()
 
 print("Document Loaded!")
